@@ -1,0 +1,22 @@
+.images{
+    width: 20%;
+}
+
+.full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EEBA30;
+    
+}
+
+.harry {
+    color: #AE0001;
+    font-family: 'Vujahday Script', cursive;
+}
+.desc   {
+    text-align: center;
+    color: #740001;
+
+}
