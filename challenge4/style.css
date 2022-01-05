@@ -1,15 +1,49 @@
 /* Add your code in each class */
 body {
+  background-color: purple;
+  
 }
 .container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+
 }
 .movie-card {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  -webkit-box-shadow: 5px 5px 12px 3px rgba(0,0,0,0.31); 
+box-shadow: 5px 5px 12px 3px rgba(0,0,0,0.31);
+  
 }
 .movie-image {
+  object-position: top;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  
 }
 .movie-details-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+  
 }
 .descriptions {
+  position: absolute;
+  bottom: 5px;
+  left: 30px;
+  
+  color: white;
+  
 }
 
 /*A gift from us!*/
@@ -28,4 +62,7 @@ body {
   );
 }
 .movie-title {
+  font-size: x-large;
+  font-weight: 600;
+ 
 }

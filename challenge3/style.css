@@ -1,8 +1,31 @@
 /* Add your code in each class */
 .container {
+  position: relative;
+height: 300px;
+width: 400px;
+background-color: #f1faee;
+color: #457b9d;
+overflow-x: hidden;
+font-family: 'The Nautigal', cursive;
+margin: 10px;
+font-size: 20px;
+
 }
 .head {
+  font-family: monospace;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  
+  
+
+background-color: #a8dadc;
+color: #e63946;
+
 }
+
 
 .row {
   /* .row is used in ./index.js not in the html filee */
